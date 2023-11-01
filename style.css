@@ -1,0 +1,209 @@
+header h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: bolder;
+    text-decoration: dotted double black;
+} 
+main{
+    text-align: center;
+}
+header img{
+    text-align: center;
+}
+
+button{
+    padding: 0px 30px 0px 30px ;
+    background-color: rgb(183, 159, 186);
+    border-radius: 25%;
+    margin-left:105px;
+}
+table{
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+    height: 125x;
+    width: 200px;
+    
+}
+body{
+    background: scroll;
+    background-color: rgb(228, 229, 230);
+    background-image:url("/image-1.png");
+    background-size: cover;
+    
+}
+
+
+main{
+    height: 150px;
+    background-image: url("/heritage1.jpg.webp");
+    background-size:1600px 180px ;
+}
+button:hover{
+    background-color: rgb(166, 224, 166);
+}
+#content{
+    background-color: whitesmoke;
+    height: 400px;
+    width: 700px;
+    margin-left: 50px;
+    margin-top: 60px;
+    opacity: 90%;
+    
+}
+
+#details{
+    padding-bottom: 50px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    opacity: 70%;
+    margin-left: 20px;
+
+}
+#content button{
+    width: 49.5%;
+    margin-left: 0px;
+    background-color: rgb(33, 61, 119);
+    border-radius: 0%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 3px;
+
+}
+div p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(33,61,119);
+    text-align: center;
+} 
+#content input{
+    margin-left: 20px ;
+    width: 300px ;
+    margin-right: 20px ;
+    margin-bottom: 20px ;
+    height: 30px ;
+    
+}
+#content select{
+    margin-left: 20px ;
+    width: 300px ;
+    margin-right: 20px ;
+    margin-bottom: 20px ;
+    height: 30px ;
+
+}
+#content #one{
+    margin-left: 20px ;
+    width: 20px ;
+    margin-right: 5px ;
+    margin-bottom: 20px ;
+    height: 20px ;
+
+
+}
+#content #two{
+    margin-left: 20px ;
+    width: 20px ;
+    margin-right: 5px ;
+    margin-bottom: 20px ;
+    height: 20px ;
+
+}
+#content #three{
+    margin-left: 20px ;
+    width: 20px ;
+    margin-right: 5px ;
+    margin-bottom: 20px ;
+    height: 20px ;
+}
+#content #four{
+    margin-left: 20px ;
+    width: 20px ;
+    margin-right: 5px ;
+    margin-bottom: 20px ;
+    height: 20px ;
+}
+#content #search{
+    background-color: rgb(219, 153, 29);
+    color: white;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10%;
+    width: 100px;
+
+    margin-left: 30px;
+
+
+}
+#content #Disha{
+    background-color: rgb(53, 186, 38);
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10%;
+    width: 200px;
+    margin-left:50px;
+
+}
+#content #login {
+    background-color: rgb(86, 177, 197);
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10%;
+    width: 100px;
+    margin-left:45px;
+
+}
+#content #Register{
+    background-color: rgb(197, 180, 86);
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10%;
+    width: 100px;
+    margin-left:45px;
+    
+}
+#note{
+    background-color: whitesmoke;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 700px;
+    opacity: 80%;
+}
+#note p{
+    color: red;
+    font-size: small;
+    font-weight: 100;
+    text-align: left;
+}
+#login a{
+    color: white;
+    text-decoration: none;
+}
+#Register a{
+    color: white;
+    text-decoration: none;
+}
+
