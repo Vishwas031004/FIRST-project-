@@ -28,7 +28,7 @@ table{
 body{
     background: scroll;
     background-color: rgb(228, 229, 230);
-    background-image:url("/image-1.png");
+    background-image:url("./image-1.png");
     background-size: cover;
     
 }
