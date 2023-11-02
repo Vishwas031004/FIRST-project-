@@ -36,7 +36,7 @@ body{
 
 main{
     height: 150px;
-    background-image: url("/heritage1.jpg.webp");
+    background-image: url("./heritage1.jpg.webp");
     background-size:1600px 180px ;
 }
 button:hover{
