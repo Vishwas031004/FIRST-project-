@@ -27,8 +27,8 @@ table{
 }
 body{
     background: scroll;
-    background-color: rgb(228, 229, 230);
-    background-image:url("./image-1.png");
+    background-color:white;
+    background-image: url("./vande\ bharat.jpg");
     background-size: cover;
     
 }
@@ -46,9 +46,12 @@ button:hover{
     background-color: whitesmoke;
     height: 400px;
     width: 700px;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 60px;
     opacity: 90%;
+    
+    
+
     
 }
 
@@ -58,6 +61,16 @@ button:hover{
     background-color: whitesmoke;
     opacity: 70%;
     margin-left: 20px;
+
+}
+#PNR:hover{
+    background-color: rgb(53, 186, 38);
+    color: black;
+    
+}
+#Chart:hover{
+    background-color: rgb(53, 186, 38);
+    color: black;
 
 }
 #content button{
@@ -137,6 +150,7 @@ div p{
     border: none;
     border-radius: 10%;
     width: 100px;
+    box-shadow: 2px 2px 8px black;
 
     margin-left: 30px;
 
@@ -154,6 +168,7 @@ div p{
     border-radius: 10%;
     width: 200px;
     margin-left:50px;
+    box-shadow: 2px 2px 8px black;
 
 }
 #content #login {
@@ -168,6 +183,7 @@ div p{
     border-radius: 10%;
     width: 100px;
     margin-left:45px;
+    box-shadow: 2px 2px 8px black;
 
 }
 #content #Register{
@@ -182,15 +198,16 @@ div p{
     border-radius: 10%;
     width: 100px;
     margin-left:45px;
+    box-shadow: 2px 2px 8px black;
     
 }
 #note{
     background-color: whitesmoke;
     height: 70px;
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 704px;
     width: 700px;
-    opacity: 80%;
+    opacity: 70%;
 }
 #note p{
     color: red;
@@ -206,4 +223,21 @@ div p{
     color: white;
     text-decoration: none;
 }
-
+div{
+    display: inline-block
+}
+#service{
+    height: 340px;
+    width: 650px;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 60px;
+    background-image: url(./vande\ bharat\ 2.png);
+    background-size: cover;
+    opacity: 50%;
+    }
+#serve {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
