@@ -1,15 +1,72 @@
-header h1 {
+#heaading{
+    display: inline-block;
+}
+header p {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif ;
     font-weight: bolder;
     text-decoration: dotted double black;
+    margin-left: 750px;
+    font-size: xx-large;
+
 } 
-main{
+#nav{
+    background-color:white;
+    height: 130px;
+    width: 1130px;
     text-align: center;
+    margin-top: 20px;
 }
-header img{
-    text-align: center;
+.ABC{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+
+
 }
+#exc{
+    background-color: rgb(33, 61, 119);
+    color: white;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10%;
+    width: 200px;
+    margin-left:45px;
+    box-shadow: 2px 2px 8px black;
+    font-family:'Times New Roman', Times, serif;
+}
+#page #IR{
+    font-size:50px;
+    color: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+#page #Quality{
+    color: white;
+    margin-top: 2px;
+
+}
+
+#Grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 500px;
+    width: 1500px;
+    
+}
+
+#Header{
+    display: flex;
+}
+
+
+
 
 button{
     padding: 0px 30px 0px 30px ;
@@ -25,19 +82,27 @@ table{
     width: 200px;
     
 }
-body{
+
+#page{
     background: scroll;
     background-color:white;
     background-image: url("./vande\ bharat.jpg");
     background-size: cover;
+    height: 800px;
+    width: 1500px;
+    border-radius: 5%;
+ 
+
     
 }
 
 
-main{
-    height: 150px;
-    background-image: url("./heritage1.jpg.webp");
-    background-size:1600px 180px ;
+
+#logo{
+    border-radius: 50%;
+    text-align: left;
+    margin-top: px;
+    
 }
 button:hover{
     background-color: rgb(166, 224, 166);
@@ -47,7 +112,7 @@ button:hover{
     height: 400px;
     width: 700px;
     margin-left: 20px;
-    margin-top: 60px;
+    margin-top: 30px;
     opacity: 90%;
     
     
@@ -63,17 +128,17 @@ button:hover{
     margin-left: 20px;
 
 }
-#PNR:hover{
+#page #Chart:hover{
     background-color: rgb(53, 186, 38);
     color: black;
     
 }
-#Chart:hover{
+#page #PNR:hover{
     background-color: rgb(53, 186, 38);
     color: black;
 
 }
-#content button{
+#content #PNR{
     width: 49.5%;
     margin-left: 0px;
     background-color: rgb(33, 61, 119);
@@ -85,6 +150,18 @@ button:hover{
     margin-left: 3px;
 
 }
+#content #Chart{
+    width: 49.5%;
+    margin-left: 0px;
+    background-color: rgb(33, 61, 119);
+    border-radius: 0%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 3px;
+}
+    
 div p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
@@ -167,12 +244,29 @@ div p{
     border: none;
     border-radius: 10%;
     width: 200px;
-    margin-left:50px;
+    margin-left:40px;
     box-shadow: 2px 2px 8px black;
 
 }
-#content #login {
-    background-color: rgb(86, 177, 197);
+ #login {
+    background-color: rgb(33, 61, 119);
+    color: white;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10%;
+    width: 100px;
+    margin-left:45px;
+    box-shadow: 2px 2px 8px black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+ #Register{
+    background-color: rgb(86, 197, 166);
     color: white;
     font-weight: bold;
     padding-left: 10px;
@@ -182,32 +276,20 @@ div p{
     border: none;
     border-radius: 10%;
     width: 100px;
-    margin-left:45px;
+    margin-left:5px;
     box-shadow: 2px 2px 8px black;
-
-}
-#content #Register{
-    background-color: rgb(197, 180, 86);
-    color: white;
-    font-weight: bold;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: none;
-    border-radius: 10%;
-    width: 100px;
-    margin-left:45px;
-    box-shadow: 2px 2px 8px black;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 #note{
     background-color: whitesmoke;
     height: 70px;
-    margin-top: 10px;
-    margin-left: 704px;
+    margin-top: 5px;
+    margin-left: 20px;
     width: 700px;
-    opacity: 70%;
+    opacity: 80%;
+    
+    
 }
 #note p{
     color: red;
@@ -227,17 +309,12 @@ div{
     display: inline-block
 }
 #service{
-    height: 340px;
-    width: 650px;
-    background-color: aliceblue;
-    margin-left: 30px;
-    margin-top: 60px;
-    background-image: url(./vande\ bharat\ 2.png);
-    background-size: cover;
-    opacity: 50%;
-    }
-#serve {
-    height: 50px;
-    width: 50px;
-    background-color: black;
+    background-color: whitesmoke;
+    height: 400px;
+    width: 700px;
+    margin-left: 20px;
+    margin-top: 30px;
+    opacity: 90%;
+    
+    
 }
